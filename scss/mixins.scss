@@ -1,0 +1,26 @@
+$bg-color: hsl(36, 29%, 97%);
+$accent-color: #28514F;
+$text-color: #65727B;
+$dark-text-color: #1B1F2B;
+@mixin sectionTitle {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: $accent-color;
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+@mixin sectionDesc {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: $text-color;
+    max-width: 620px;
+    text-align: center;
+    margin: 0 auto;
+}
